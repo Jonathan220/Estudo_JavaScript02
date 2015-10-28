@@ -25,4 +25,20 @@ window.onload = function(){
 	document.getElementById("baixo").onclick = function(){
 		moveBy(0,10);
 	}
+	
+	document.getElementById("aumentar").onclick = function(){
+		resizeBy(20,20);
+	}
+	
+	document.getElementById("diminuir").onclick = function(){
+		resizeBy(-20,-20);
+	}
+	
+	document.getElementById("altura").innerHTML = "Altura: " + pageYOffset;
+	
+	document.getElementById("largura").innerHTML = "Largura: " + pageXOffset;
+	
+	document.getElementById("imprimir").onclick = function(){
+		print();
+	}
 }

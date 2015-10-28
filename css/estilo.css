@@ -1,0 +1,22 @@
+body{
+	font-size: small;
+}
+td{
+	text-align: center;
+}
+#corpo{
+	width: 5000px;
+}
+#moverleft, #moverright{
+	position: fixed;
+}
+#moverright{
+	left: 100px;
+}
+#moverleft{
+	top: 15px;
+}
+#principal{
+	position: fixed;
+	top: 30px;
+}
